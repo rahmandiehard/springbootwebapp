@@ -4,7 +4,7 @@ pipeline {
         stage('clone') {
             steps {
                 // Get some code from a GitHub repository
-                git url: 'https://github.com/rahmandiehard/demorep.git', branch: 'master'
+                git url: 'https://github.com/rahmandiehard/springbootwebapp.git', branch: 'master'
              
             }
         }
